@@ -1,0 +1,393 @@
+ <!DOCTYPE html>
+ <html lang="zh-CN">
+ <head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width,initial-scale=1.0">
+   <title>何德欢 - 机械设计作品集</title>
+   <script src="https://unpkg.com/lucide@latest"></script>
+   <link rel="stylesheet" href="css/style.css">
+ </head>
+ <body>
+   <!-- Nav -->
+   <nav class="navbar" id="navbar">
+     <div class="nav-container">
+       <a href="#hero" class="nav-logo">何德欢</a>
+       <div class="nav-links" id="navLinks">
+         <a href="#capabilities">能力</a>
+         <a href="#projects">项目</a>
+         <a href="#about">关于</a>
+         <a href="#contact">联系</a>
+       </div>
+       <button class="nav-toggle" id="navToggle" aria-label="菜单">
+         <i data-lucide="menu" class="lucide-icon"></i>
+       </button>
+     </div>
+   </nav>
+ 
+   <!-- Hero -->
+   <section id="hero">
+     <div class="hero-bg"></div>
+     <div class="hero-content">
+       <p class="hero-eyebrow">机械设计 · 结构创新 · 竞赛实战</p>
+       <h1 class="hero-title">何德欢</h1>
+       <p class="hero-sub">齐鲁工业大学 · 机械工程 2026 届</p>
+       <p class="hero-desc">擅长从概念设计到样机落地的全流程工程实现</p>
+       <div class="hero-cta">
+         <a href="#projects" class="btn btn-primary">查看项目</a>
+         <a href="assets/resume.pdf" target="_blank" class="btn btn-outline">下载简历</a>
+       </div>
+     </div>
+     <div class="hero-scroll">
+       <span>核心能力</span>
+       <i data-lucide="chevron-down" class="lucide-icon"></i>
+     </div>
+   </section>
+ 
+   <!-- Capabilities -->
+   <section id="capabilities">
+     <div class="container">
+       <h2 class="section-title">核心能力</h2>
+       <p class="section-desc">通过项目实战锤炼的四项工程核心能力</p>
+       <div class="caps-grid">
+         <div class="cap-card">
+           <div class="cap-icon"><i data-lucide="cpu" class="lucide-icon"></i></div>
+           <h3>结构创新设计</h3>
+           <p>从概念到可制造三维模型，多自由度复合机构方案开发，传动部件匹配选型与校核</p>
+         </div>
+         <div class="cap-card">
+           <div class="cap-icon"><i data-lucide="bar-chart-3" class="lucide-icon"></i></div>
+           <h3>工程分析与仿真</h3>
+           <p>有限元分析（ANSYS / SolidWorks Simulation）驱动设计决策，磁吸附等物理场仿真</p>
+         </div>
+         <div class="cap-card">
+           <div class="cap-icon"><i data-lucide="wrench" class="lucide-icon"></i></div>
+           <h3>制造工艺与落地</h3>
+           <p>外购件选型采购、整机装配调试、样机迭代优化，DFM 贯穿设计始终</p>
+         </div>
+         <div class="cap-card">
+           <div class="cap-icon"><i data-lucide="target" class="lucide-icon"></i></div>
+           <h3>项目统筹与交付</h3>
+           <p>机械全流程开发负责人，对接竞赛节点交付，具备完整结构项目闭环经验</p>
+         </div>
+       </div>
+     </div>
+   </section>
+ 
+   <!-- Projects -->
+   <section id="projects">
+     <div class="container">
+       <h2 class="section-title">项目作品</h2>
+       <p class="section-desc">三个项目，完整呈现机械设计全链条能力</p>
+ 
+       <!-- Project 1 -->
+       <article class="project-card">
+         <div class="project-img">
+           <img src="projects/project-1-flying-dart/gallery/飞镖总装.PNG" alt="飞镖机器人整机结构设计" loading="lazy">
+         </div>
+         <div class="project-body">
+           <div class="project-tags">
+             <span class="tag">结构创新设计</span>
+             <span class="tag">传动选型</span>
+             <span class="tag">样机落地</span>
+             <span class="tag">项目统筹</span>
+           </div>
+           <h3>基于 RoboMaster 的双 Yaw 轴丝杆转向拉簧弹射飞镖机器人</h3>
+           <p class="project-meta">项目负责人</p>
+           <div class="project-awards">
+             <span class="award-badge">🏆 全国二等奖</span>
+             <span class="award-badge">📄 实用新型专利受理</span>
+           </div>
+           <p class="project-brief">独立完成整套机械方案设计，创新设计双 Yaw 丝杆转向机构、拉簧储能弹射机构、自动装填机构，实现 15–30 米可调发射距离，支持自动瞄准与连续装填发射。</p>
+           <button class="btn btn-primary view-detail" data-project="1">查看详情</button>
+         </div>
+       </article>
+ 
+       <!-- Project 2 -->
+       <article class="project-card">
+         <div class="project-img">
+           <img src="projects/project-2-engineering/gallery/工程总装.PNG" alt="工程机器人整机结构设计" loading="lazy">
+         </div>
+         <div class="project-body">
+           <div class="project-tags">
+             <span class="tag">紧凑空间设计</span>
+             <span class="tag">一体化结构</span>
+             <span class="tag">轻量化</span>
+             <span class="tag">工况导向</span>
+           </div>
+           <h3>基于 RoboMaster 的二级伸缩机构麦轮工程机器人</h3>
+           <p class="project-meta">机械负责人</p>
+           <div class="project-awards">
+             <span class="award-badge">🏆 全国三等奖</span>
+           </div>
+           <p class="project-brief">全权负责机器人机械全套开发，设计全向麦轮底盘与二级升降、二级前伸复合伸缩抓取机构，满足狭窄通道矿石拾取、精准姿态投放需求。</p>
+           <button class="btn btn-primary view-detail" data-project="2">查看详情</button>
+         </div>
+       </article>
+ 
+       <!-- Project 3 -->
+       <article class="project-card">
+         <div class="project-img">
+           <img src="projects/project-3-wall-robot/gallery/爬壁机器人总装.PNG" alt="爬壁机器人整机结构设计" loading="lazy">
+         </div>
+         <div class="project-body">
+           <div class="project-tags">
+             <span class="tag">结构设计</span>
+             <span class="tag">仿真分析</span>
+             <span class="tag">磁吸附技术</span>
+             <span class="tag">经济效益</span>
+           </div>
+           <h3>面向大型钢制储罐维护的永磁吸附爬壁机器人结构设计与三维建模</h3>
+           <p class="project-meta">毕业论文 · 齐鲁工业大学 机械工程学院</p>
+           <div class="project-awards">
+             <span class="award-badge">📊 吸附安全系数 3.38</span>
+           </div>
+           <p class="project-brief">采用 Halbach 永磁阵列与四独立舵轮全向移动方案，搭载六自由度作业机械臂，通过 ANSYS Maxwell 与 SolidWorks Simulation 仿真验证结构可靠性，单次储罐维护可节省约 46.42 万元。</p>
+           <button class="btn btn-primary view-detail" data-project="3">查看详情</button>
+         </div>
+       </article>
+     </div>
+   </section>
+ 
+   <!-- About -->
+   <section id="about">
+     <div class="container">
+       <h2 class="section-title">关于我</h2>
+       <div class="about-grid">
+         <div class="about-info">
+           <h3>教育背景</h3>
+           <p class="about-school">齐鲁工业大学 · 机械工程学院</p>
+           <p class="about-major">机械设计制造及自动化 · 本科 · 2026 届</p>
+           <p class="about-id">学号：202201010076</p>
+         </div>
+         <div class="about-achievements">
+           <h3>获奖与成果</h3>
+           <ul>
+             <li>第二十三届 RoboMaster 机甲大赛 · 飞镖机器人 · <strong>全国二等奖</strong></li>
+             <li>第二十三届 RoboMaster 机甲大赛 · 工程机器人 · <strong>全国三等奖</strong></li>
+             <li>第十七届"高教杯"先进成图技术与产品信息建模创新大赛 · <strong>全国三等奖</strong></li>
+             <li>核心弹射装置 · <strong>实用新型专利受理</strong>（专利号 202510106364.6，发明人第一位）</li>
+             <li>RoboMaster 高校联盟赛 3v3 对抗赛 · <strong>省级一等奖</strong></li>
+             <li>山东省大学生先进成图技术与产品信息建模创新大赛 · <strong>省级一等奖</strong></li>
+             <li>山东省大学生创客大赛 · <strong>省级一等奖</strong></li>
+           </ul>
+         </div>
+         <div class="about-skills">
+           <h3>专业技能</h3>
+           <div class="skills-list">
+             <span class="skill-item">SolidWorks</span>
+             <span class="skill-item">ANSYS Maxwell</span>
+             <span class="skill-item">SolidWorks Simulation</span>
+             <span class="skill-item">AutoCAD</span>
+             <span class="skill-item">MATLAB</span>
+             <span class="skill-item">3D 打印</span>
+             <span class="skill-item">有限元分析</span>
+             <span class="skill-item">公差分析</span>
+           </div>
+         </div>
+       </div>
+
+       <div class="about-internship" style="margin-top:40px">
+         <h3 style="font-size:1rem;font-weight:700;color:#111827;margin-bottom:16px;padding-bottom:8px;border-bottom:2px solid #1e40af;display:inline-block">实习经历</h3>
+         <div style="background:#f8f9fa;border-radius:8px;padding:24px;border:1px solid #e5e7eb">
+           <p style="font-weight:600;color:#111827;margin-bottom:4px">广东逸动科技有限公司 · 结构实习生</p>
+           <p style="font-size:0.85rem;color:#6b7280;margin-bottom:16px">工装设计 · 维修 BOM · 专利交底书</p>
+           <ul style="display:flex;flex-direction:column;gap:8px">
+             <li style="font-size:0.9rem;color:#4b5563;padding-left:16px;position:relative;line-height:1.6"><span style="position:absolute;left:0;color:#1e40af;font-weight:700">*</span> <strong>工装设计</strong>：设计模拟用户工况的老化测试工装，使用磁力阻尼器施加约 100N 恒定阻力，直线模组驱动往复运动，检验包胶层脱胶风险</li>
+             <li style="font-size:0.9rem;color:#4b5563;padding-left:16px;position:relative;line-height:1.6"><span style="position:absolute;left:0;color:#1e40af;font-weight:700">*</span> <strong>维修 BOM</strong>：拆解整机结构输出维修 BOM 表及爆炸图，用于售后维修手册更新</li>
+             <li style="font-size:0.9rem;color:#4b5563;padding-left:16px;position:relative;line-height:1.6"><span style="position:absolute;left:0;color:#1e40af;font-weight:700">*</span> <strong>专利交底书</strong>：撰写实用新型专利交底书 <strong>7 份</strong>（含技术背景、创新点、实施方式、替代方案、专利附图），<strong>全部审核通过</strong></li>
+           </ul>
+         </div>
+       </div>
+     </div>
+   </section>
+ 
+   <!-- Contact -->
+   <section id="contact">
+     <div class="container">
+       <h2 class="section-title">联系方式</h2>
+       <p class="section-desc">欢迎联系，期待与您交流</p>
+       <div class="contact-content">
+         <div class="contact-item">
+           <i data-lucide="mail" class="lucide-icon"></i>
+           <a href="mailto:3528034865@qq.com">3528034865@qq.com</a>
+         </div>
+         <div class="contact-item">
+           <i data-lucide="phone" class="lucide-icon"></i>
+           <span>19232327977</span>
+         </div>
+         <div class="contact-download">
+           <a href="assets/resume.pdf" target="_blank" class="btn btn-primary">
+             <i data-lucide="download" class="lucide-icon"></i>
+             下载简历 PDF
+           </a>
+         </div>
+       </div>
+     </div>
+   </section>
+ 
+   <!-- Footer -->
+   <footer class="footer">
+     <div class="container">
+       <p>&copy; 2026 何德欢 · 机械设计作品集</p>
+     </div>
+   </footer>
+ 
+   <!-- Modal 1 -->
+   <div class="modal-overlay" id="modal-1">
+     <div class="modal">
+       <button class="modal-close" data-modal="1">
+         <i data-lucide="x" class="lucide-icon"></i>
+       </button>
+       <div class="modal-body">
+         <div class="modal-tags">
+           <span class="tag">结构创新设计</span>
+           <span class="tag">传动选型</span>
+           <span class="tag">样机落地</span>
+           <span class="tag">项目统筹</span>
+         </div>
+         <h2>基于 RoboMaster 的双 Yaw 轴丝杆转向拉簧弹射飞镖机器人</h2>
+         <p class="modal-role">项目负责人</p>
+         <div class="modal-awards">
+           <span class="award-badge">🏆 第二十三届 RoboMaster 机甲大赛 · 全国二等奖</span>
+           <span class="award-badge">📄 核心弹射装置实用新型专利受理（发明人第一位）</span>
+         </div>
+         <div class="modal-section">
+           <h3>项目概述</h3>
+   <p>面向 RoboMaster 机甲大赛飞镖射击任务，独立完成整套机械方案设计。创新设计双 Yaw 丝杆转向机构实现精确瞄准、拉簧储能弹射机构实现可控发射、自动装填机构实现连续作业。整套结构通过三维建模、干涉检查、机构运动校核，经过多轮实测迭代优化，最终实现 15–30 米可调发射距离，支持自动瞄准与连续装填发射。</p>
+         </div>
+         <div class="modal-section">
+           <h3>匹配能力</h3>
+           <ul>
+             <li><strong>整机机械结构创新设计</strong>：多自由度转向、储能弹射、自动上料复合机构方案开发</li>
+             <li><strong>标准传动部件匹配选型</strong>：丝杆、同步带、拉簧、驱动电机计算与校核</li>
+             <li><strong>三维建模与整机装配设计</strong>：大型装配体建模、干涉检查、机构运动校核</li>
+             <li><strong>样机落地与性能迭代</strong>：外购件选型采购、整机装配调试、反复实测优化结构</li>
+             <li><strong>产品性能量化设计</strong>：按射程、瞄准精度需求完成结构参数化设计</li>
+             <li><strong>项目统筹落地</strong>：统筹机械全流程开发，对接竞赛节点交付</li>
+           </ul>
+         </div>
+         <div class="modal-section">
+           <h3>量化成果</h3>
+           <ul>
+             <li>15–30 米可调发射距离</li>
+             <li>支持自动瞄准 + 连续装填发射</li>
+             <li>全国二等奖</li>
+             <li>实用新型专利受理（发明人第一位）</li>
+           </ul>
+         </div>
+         <div class="modal-section">
+           <h3>项目图库</h3>
+           <div class="modal-gallery">
+             <img src="projects/project-1-flying-dart/gallery/飞镖总装.PNG" alt="飞镖机器人" loading="lazy" style="max-width:100%;border-radius:8px">
+           </div>
+         </div>
+       </div>
+     </div>
+   </div>
+ 
+   <!-- Modal 2 -->
+   <div class="modal-overlay" id="modal-2">
+     <div class="modal">
+       <button class="modal-close" data-modal="2">
+         <i data-lucide="x" class="lucide-icon"></i>
+       </button>
+       <div class="modal-body">
+         <div class="modal-tags">
+           <span class="tag">紧凑空间设计</span>
+           <span class="tag">一体化结构</span>
+           <span class="tag">轻量化</span>
+           <span class="tag">工况导向</span>
+         </div>
+         <h2>基于 RoboMaster 的二级伸缩机构麦轮工程机器人</h2>
+         <p class="modal-role">机械负责人</p>
+         <div class="modal-awards">
+           <span class="award-badge">🏆 第二十三届 RoboMaster 机甲大赛 · 全国三等奖</span>
+         </div>
+         <div class="modal-section">
+           <h3>项目概述</h3>
+           <p>全权负责机器人机械全套开发。设计全向麦轮底盘实现灵活移动，创新开发二级升降 + 二级前伸复合伸缩抓取机构，在有限机身空间内实现大范围作业覆盖。整套结构经过多轮装配调试与实测迭代，解决卡滞、定位偏差等结构问题，满足狭窄通道矿石拾取、精准姿态投放等竞赛需求。</p>
+         </div>
+         <div class="modal-section">
+           <h3>匹配能力</h3>
+           <ul>
+             <li><strong>紧凑化空间结构设计</strong>：狭小工况下多级伸缩复合执行机构方案</li>
+             <li><strong>一体化结构开发</strong>：麦轮全向底盘 + 二级升降 + 二级前伸抓取机构</li>
+             <li><strong>轻量化与空间利用率优化</strong>：在有限机身内拓展大作业范围</li>
+             <li><strong>样机装配调试与结构迭代</strong>：解决卡滞、定位偏差等工程问题</li>
+             <li><strong>工况导向设计</strong>：针对狭窄通道、多高度抓取需求定制机械结构</li>
+           </ul>
+         </div>
+         <div class="modal-section">
+           <h3>量化成果</h3>
+           <ul>
+             <li>二级升降 + 二级前伸复合抓取</li>
+             <li>麦轮全向灵活移动</li>
+             <li>全国三等奖</li>
+           </ul>
+         </div>
+         <div class="modal-section">
+           <h3>项目图库</h3>
+           <div class="modal-gallery">
+             <img src="projects/project-2-engineering/gallery/工程总装.PNG" alt="工程机器人" loading="lazy" style="max-width:100%;border-radius:8px">
+           </div>
+         </div>
+       </div>
+     </div>
+   </div>
+ 
+   <!-- Modal 3 -->
+   <div class="modal-overlay" id="modal-3">
+     <div class="modal">
+       <button class="modal-close" data-modal="3">
+         <i data-lucide="x" class="lucide-icon"></i>
+       </button>
+       <div class="modal-body">
+         <div class="modal-tags">
+           <span class="tag">结构设计</span>
+           <span class="tag">仿真分析</span>
+           <span class="tag">磁吸附技术</span>
+           <span class="tag">经济效益</span>
+         </div>
+         <h2>面向大型钢制储罐维护的永磁吸附爬壁机器人结构设计与三维建模</h2>
+         <p class="modal-role">毕业论文 · 齐鲁工业大学 机械工程学院</p>
+         <div class="modal-section">
+           <h3>项目概述</h3>
+           <p>针对石化、能源行业大型钢制储罐壁面检测与打磨维护需求，设计了一款永磁吸附轮式爬壁机器人。采用 Halbach 永磁体阵列轮毂内嵌式吸附机构与四独立舵轮全向移动方案，搭载六自由度作业机械臂。通过 ANSYS Maxwell 进行磁吸附性能仿真、SolidWorks Simulation 进行主体框架与关键部件静力学仿真，验证了结构强度与刚度的可靠性。经济效益分析表明，与传统人工方案相比，单次储罐维护可节省约 46.42 万元。</p>
+         </div>
+         <div class="modal-section">
+           <h3>关键设计参数</h3>
+           <ul>
+             <li>自重 ≤ 20 kg，可单人搬运进出检修口（≤ 600×600×600 mm）</li>
+             <li>Halbach 永磁阵列吸附，安全系数 <strong>3.38</strong></li>
+             <li>防滑系数 <strong>2.03</strong></li>
+             <li>可跨越 ≥ 10 mm 焊缝障碍</li>
+             <li>移动速度 0.1–0.3 m/s</li>
+             <li>六自由度机械臂，负载 ≥ 5 kg</li>
+             <li>远程操控距离 ≥ 50 m</li>
+           </ul>
+         </div>
+         <div class="modal-section">
+           <h3>核心工作</h3>
+           <ul>
+             <li>永磁吸附机构（Halbach 阵列）设计、吸附力分析、材料选型</li>
+             <li>四舵轮全向移动机构、越障能力分析、电机选型校核</li>
+             <li>六自由度机械臂结构设计、运动学分析（蒙特卡洛法工作空间）</li>
+             <li>ANSYS Maxwell 磁吸附仿真、SolidWorks Simulation 静力学仿真</li>
+             <li>轮组安装板尺寸优化设计</li>
+             <li>经济效益分析（单次节约 ~46.42 万元）</li>
+           </ul>
+         </div>
+         <div class="modal-section">
+           <h3>项目图库</h3>
+           <div class="modal-gallery">
+             <img src="projects/project-3-wall-robot/gallery/爬壁机器人总装.PNG" alt="爬壁机器人" loading="lazy" style="max-width:100%;border-radius:8px">
+           </div>
+         </div>
+       </div>
+     </div>
+   </div>
+ 
+   <script src="js/main.js"></script>
+   <script>lucide.createIcons();</script>
+ </body>
+ </html>
